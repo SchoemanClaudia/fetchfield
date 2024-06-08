@@ -1,3 +1,6 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;1,400;1,700&display=swap');
+
 /* Asterisk wildcard selector: override default styles added by the browser */
 * {
     padding: 0;
@@ -7,7 +10,24 @@
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #000000;
+}
+
+header img {
+    float: left;
+    width: 30px;
+    height: 100%;
+  }
+
+h1 {
+    font-family:'Sansita', sans-serif;
+    font-style: italic;
+    color: #ffffff;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* Main content */
