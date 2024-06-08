@@ -29,7 +29,7 @@ header {
     position:fixed;
     z-index: 99;
     width: 100%;
-    border-bottom: 3px solid #48C3C5;
+    border-bottom: 4px solid #48C3C5;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,10 +98,19 @@ nav {
 
 /* Main content */
 main {
-    background-color: #48C3C5;
+    background-color: #202020;
     /* Main takes up space to push footer down */
     flex: auto;
     margin-top: 55px;
+}
+
+
+/* Hero image */
+#hero {
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+    opacity: 0.5;
+    height: 400px;
+    width: 100%;
 }
 
 /* Footer */
