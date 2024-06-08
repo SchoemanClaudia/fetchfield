@@ -25,6 +25,11 @@ body {
     flex-direction: column;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Header */
 header {
     background-color: #202020;
@@ -52,11 +57,6 @@ header h1 {
     text-align: left;
     letter-spacing: 1px;
     padding-top: 5px;
-}
-
-header a {
-    text-decoration: none;
-    color: inherit;
 }
 
 #navbar {
@@ -102,7 +102,7 @@ nav {
 
 /* Main content */
 main {
-    background-color: #48C3C5;
+    background-color: #202020;
     /* Main takes up space to push footer down */
     flex: auto;
     margin-top: 50px;
@@ -122,6 +122,27 @@ main {
     bottom: 30px;
     width: 80%;
     padding-left: 25px;
+}
+
+#explore {
+
+}
+
+#private-fields{
+
+}
+
+#forest-walks {
+    
+}
+
+.explore-button {
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #202020;
+    background-color: #48C3C5;
+    border: 2px solid #202020;
+    padding: 15px;
 }
 
 /* Footer */
