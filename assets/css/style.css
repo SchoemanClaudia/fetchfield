@@ -99,6 +99,9 @@ nav {
 /* Main content */
 main {
     background-color: #48C3C5;
+    /* Main takes up space to push footer down */
+    flex: auto;
+    margin-top: 55px;
 }
 
 /* Footer */
