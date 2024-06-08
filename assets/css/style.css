@@ -10,8 +10,11 @@
 
 /* Generic */
 h1, h2, h3 {
-    font-family:'Sansita Swashed', sans-serif;
-    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    color: #ffffff;
+    letter-spacing: 1px;
 }
 
 body {
@@ -29,7 +32,6 @@ header {
     position:fixed;
     z-index: 99;
     width: 100%;
-    border-bottom: 4px solid #48C3C5;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,6 +45,7 @@ header img {
   }
 
 header h1 {
+    font-family:'Sansita Swashed', sans-serif;
     font-style: italic;
     color: #ffffff;
     text-align: left;
@@ -98,7 +101,7 @@ nav {
 
 /* Main content */
 main {
-    background-color: #202020;
+    background-color: #48C3C5;
     /* Main takes up space to push footer down */
     flex: auto;
     margin-top: 55px;
@@ -108,9 +111,16 @@ main {
 /* Hero image */
 #hero {
     background: url("../images/hero-image.webp") no-repeat center center/cover;
-    opacity: 0.5;
     height: 400px;
     width: 100%;
+}
+
+#hero-text {
+    position: absolute;
+    min-height: 620px;
+    bottom: 30px;
+    width: 80%;
+    padding-left: 25px;
 }
 
 /* Footer */
