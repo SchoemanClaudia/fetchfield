@@ -118,7 +118,7 @@ main {
 
 #hero-text {
     position: absolute;
-    min-height: 620px;
+    min-height: 78vh;
     bottom: 30px;
     width: 80%;
     padding-left: 25px;
