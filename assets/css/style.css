@@ -48,6 +48,10 @@ button:hover {
     border: 2px solid #48C3C5;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #202020;
@@ -186,7 +190,8 @@ main {
     margin: 10px 0;
 } */
 
-/* Map with hotspot links */
+
+/* Map with hotspot links   */ 
 #map-ireland {
     background: url("../images/map-ireland.png") no-repeat center center/cover;
     background-color: #202020;
@@ -194,12 +199,108 @@ main {
     height: 400px;
     width: 100%;
 }
-
 #map-ireland h3 {
     color: #48C3C5;
     text-align: center;
     padding: 10px;
 }
+
+/* TESTING hotspot links styles
+#container {
+    background-color: #202020;
+    color: #ffffff;
+    height: 1000px;
+    padding: 20px;
+    margin: auto;
+}
+
+#container h3 {
+    color: #48C3C5;
+    text-align: center;
+    padding: 10px;
+}
+
+.map-hotspot {
+    max-width: 550px;
+    margin: 50px auto 0 auto;
+    position: relative;
+}
+
+.map-hotspot img {
+    max-width: 100%;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    border: 2px solid #ffffff;
+    background: #48C3C5;
+    cursor: pointer;
+}
+
+.icon:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%) scale(1,1);
+    pointer-events: none;
+    content: "";
+    display: block;
+    width: 26.4px;
+    height: 26.4px;
+    border-radius: 100%;
+    border: 1px solid #48C3C5;
+    transition: border-color 1s linear;
+    animation: icon-pulse 4s linear infinite;
+}
+
+@keyframes icon-pulse {
+0%{
+    transform: translate(-50%, -50%) scale(1,1);
+    opacity: 0;
+}
+
+20%{
+    transform: translate(-50%, -50%) scale(1.5,1.5);
+}
+
+50%{
+    transform: translate(-50%, -50%) scale(2,2);
+    opacity: 0;
+}
+
+100%{
+    transform: translate(-50%, -50%) scale(2,2);
+    opacity: 0;
+}
+}
+
+.loc-one {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    bottom: -40%;
+    right: -23%;
+}
+
+.tooltip {
+    position: absolute;
+    padding: 15px;
+    width: 13em;
+    height: 7em;
+    background-color: #ffffff;
+    color: #202020;
+    box-shadow: 0 20px 4px rgba(0, 0, 0, .2);
+    line-height: 1.5em;
+    z-index: -1;
+    pointer-events: none;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  */ 
+
 
 
 /* Footer */
