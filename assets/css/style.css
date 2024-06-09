@@ -42,9 +42,9 @@ button {
     padding: 10px 15px;
 }
 
-button:hover {
-    color: #48C3C5;
-    background-color:#202020;
+button:hover, button:active {
+    color: #202020;
+    background-color: rgba(72, 195, 197, 1);
     border: 2px solid #48C3C5;
 }
 
@@ -126,7 +126,7 @@ nav {
 main {
     background-color: #48C3C5;
     /* Main takes up space to push footer down */
-    flex: 1 0 auto;
+    flex: auto;
     margin-top: 50px;
 }
 
@@ -149,7 +149,6 @@ main {
 
 .hero-cta i {
     font-size: 120%;
-    color: #48C3C5;
 }
 
 /* Explore 3 options with icons */
@@ -193,16 +192,30 @@ main {
 
 /* Map with hotspot links   */ 
 #map-ireland {
-    background: url("../images/map-ireland.png") no-repeat center center/cover;
+    background-color: #202020;
+    margin: 0 auto;
+}
+    
+#map-ireland img {
     background-color: #202020;
     color: #ffffff;
-    height: 400px;
     width: 100%;
-}
-#map-ireland h3 {
-    color: #48C3C5;
-    text-align: center;
+    height: auto;
     padding: 10px;
+}
+
+#map-ireland > div {
+    text-align: center;
+    padding: 15px;
+}
+
+.map-cta {
+    line-height: 15px;
+}
+
+.map-cta i {
+    font-size: 110%;
+    padding-top: 10px;
 }
 
 /* TESTING hotspot links styles
