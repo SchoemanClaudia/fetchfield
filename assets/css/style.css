@@ -121,7 +121,7 @@ nav {
 main {
     background-color: #202020;
     /* Main takes up space to push footer down */
-    flex: auto;
+    flex: 1 0 auto;
     margin-top: 50px;
 }
 
@@ -129,6 +129,8 @@ main {
 /* Hero image */
 #hero {
     background: url("../images/hero-image.webp") no-repeat center center/cover;
+    background-color: #202020;
+    color: #ffffff;
     height: 400px;
     width: 100%;
 }
@@ -166,5 +168,33 @@ main {
 
 /* Footer */
 footer {
-    background-color: #ffffff;
+    background-color: #202020;
+    margin: 0 auto;
+}
+
+footer img {
+    background-color: #202020;
+    color: #ffffff;
+    width: 100%;
+    height: auto;
+}
+
+#insta {
+    position: relative;
+    bottom: 70px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+#insta i {
+    color: #202020;
+}
+
+#insta a {
+    font-size: 85%;
+    font-weight: 600;
+}
+
+footer hr {
+    border: 20px solid #48C3C5;
 }
