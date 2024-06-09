@@ -32,20 +32,19 @@ a {
 
 button {
     max-width: 15em;
-    font-weight: bolder;
-    font-size: 105%;
     text-transform: uppercase;
-    color: #202020;
-    background-color: #48C3C5;
-    border: 2px solid #202020;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1.5px solid #48C3C5;
     border-radius: 10px;
     padding: 10px 15px;
-    margin: 1em;
 }
 
 button:hover {
     color: #48C3C5;
-    background-color: #202020;
+    background-color:#202020;
     border: 2px solid #48C3C5;
 }
 
@@ -121,12 +120,11 @@ nav {
 
 /* Main content */
 main {
-    background-color: #202020;
+    background-color: #48C3C5;
     /* Main takes up space to push footer down */
     flex: 1 0 auto;
     margin-top: 50px;
 }
-
 
 /* Hero image */
 #hero {
@@ -143,6 +141,11 @@ main {
     bottom: 30px;
     width: 80%;
     padding-left: 25px;
+}
+
+.hero-cta i {
+    font-size: 120%;
+    color: #48C3C5;
 }
 
 /* Explore 3 options with icons */
@@ -167,17 +170,12 @@ main {
 #explore i {
     font-size: 150%;
     padding-bottom: 10px;
-
 }
 
 #explore hr {
     border: 1px solid #48C3C5;
     border-radius: 2px;
     margin: 5px 0;
-}
-
-#explore-cta {
-    text-align: center;
 }
 
 /* Map with hotspot links */
