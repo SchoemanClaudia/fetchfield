@@ -180,6 +180,22 @@ main {
     text-align: center;
 }
 
+/* Map with hotspot links */
+#map-ireland {
+    background: url("../images/map-ireland.png") no-repeat center center/cover;
+    background-color: #48C3C5;
+    color: #202020;
+    height: 400px;
+    width: 100%;
+}
+
+#map-ireland h3 {
+    color: #202020;
+    text-align: center;
+    padding: 10px;
+}
+
+
 /* Footer */
 footer {
     background-color: #202020;
