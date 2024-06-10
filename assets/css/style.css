@@ -68,9 +68,10 @@ header img {
     float: left;
     width: 25px;
     height: auto;
+    margin: 0 0.2em;
   }
 
-header h1 {
+#logo {
     font-family:'Sansita Swashed', sans-serif;
     font-size: 160%;
     font-style: italic;
@@ -92,10 +93,6 @@ header h1 {
 
 #navbar > li {
     margin: 2em 0;
-}
-
-.active {
-    border-bottom: 2px solid #202020;
 }
 
 /* Dropdown toggle in navbar */
@@ -121,6 +118,10 @@ nav {
 .nav-menu-toggle {
     font-size: 1.5rem;
     color: #48C3C5;
+}
+
+.active {
+    border-bottom: 2px solid #202020;
 }
 
 /* Main content */
@@ -186,11 +187,6 @@ main {
     margin-bottom: 10px;
 }
 
-#explore i:hover {
-    color: #48C3C5;
-    background-color: #202020;
-}
-
 /* Map with hotspot links   */ 
 #map-ireland {
     background-color: #202020;
@@ -252,7 +248,87 @@ footer img {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
+
+    /* Explore 3 options with icons */
     #explore {
-        padding: 40px 100px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #explore > div {
+        flex: 1;
+        padding: 0 15px;
+    }
+    #private-fields > div {
+        order: 1;
+    }
+
+    #forest-walks > div {
+        align-self: flex-start;
+    }
+
+    #dog-parks > div {
+        align-self: flex-end;
+    }
+
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Logo header */
+    header img {
+        float: left;
+        width: 45px;
+        height: auto;
+        margin: 8px 0.5rem;
+      }
+
+      #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Remove navbar toggle in header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        background-color: #202020;
+        padding-right: 1rem;
+    }
+
+    #navbar {
+        display: flex;
+    }
+
+    #navbar > li {
+        color: #ffffff;
+        padding-left: 1rem;
+    }
+
+    .nav-menu-toggle {
+        display: none;
+    }
+
+    .active {
+        border-bottom: 2px solid #48C3C5;
+    }
+
+    /* Explore 3 links */
+    #explore i:hover {
+        color: #48C3C5;
+        background-color: #202020;
     }
 }
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+}
+
+/* Screens 1200px and up) */
+@media screen and (min-width: 1200px) {    
+
+    }
