@@ -20,7 +20,7 @@ h1, h2, h3 {
 body {
     font-family: 'Oxygen', sans-serif;
     color: #202020;
-    min-height: 120vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -98,6 +98,7 @@ header h1 {
     border-bottom: 2px solid #202020;
 }
 
+/* Dropdown toggle in navbar */
 nav {
     position: absolute;
     background-color: #48C3C5;
@@ -120,20 +121,23 @@ nav {
 .nav-menu-toggle {
     font-size: 1.5rem;
     color: #48C3C5;
-    margin: 5px 20px;
 }
 
 /* Main content */
 main {
     background-color: #202020;
     /* Main takes up space to push footer down */
-    flex: auto;
+    flex: 1 0 auto;
     margin-top: 50px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero image */
 #hero {
     background: url("../images/hero-image.webp") no-repeat center center/cover;
+    position: relative;
     background-color: #202020;
     color: #ffffff;
     height: 400px;
@@ -143,9 +147,9 @@ main {
 #hero-text {
     position: absolute;
     min-height: 80vh;
-    bottom: 30px;
+    bottom: 75px;
     width: 80%;
-    padding-left: 25px;
+    padding: 40px 0 0 25px;
 }
 
 .hero-cta i {
@@ -155,14 +159,10 @@ main {
 /* Explore 3 options with icons */
 #explore {
     background-color: #48C3C5;
+    width: 100%;
     padding: 40px 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-}
-
-#private-fields, #forest-walks {
-    padding-right: 15px;
 }
 
 #private-fields > h3, 
@@ -171,11 +171,12 @@ main {
     color: #202020;
     text-align: center;
     line-height: 22px;
+    padding-right: 15px;
 }
 
 #explore i {
     color: #48C3C5;
-    font-size: 150%;
+    font-size: 120%;
     background-color: rgba(255, 255, 255, .6);
     border: none;
     border-radius: 100%;
