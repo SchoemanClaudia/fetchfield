@@ -286,6 +286,12 @@ footer img {
         padding: 1rem 5rem;
     }
 
+    /* Footer social link */
+    #insta {
+        bottom: 50px;
+        padding-right: 35px;
+    }
+    
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -364,6 +370,17 @@ footer img {
     #map-ireland img {
         padding: 1rem 8rem;
     }
+
+    /* Footer social link */
+    #insta {
+        bottom: 60px;
+        padding-right: 35px;
+    }
+
+    #insta a {
+        font-size: 100%;
+    }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -384,6 +401,17 @@ footer img {
     #map-ireland img {
         padding: 1rem 15rem;
     }
+
+    /* Footer social link */
+    #insta {
+        bottom: 70px;
+        padding-right: 45px;
+    }
+
+    #insta a {
+        font-size: 110%;
+    }
+
 }
 
 /* Screens 1200px and up) */
@@ -403,4 +431,5 @@ footer img {
     #map-ireland img {
         padding: 1rem 20rem;
     }
+
 }
