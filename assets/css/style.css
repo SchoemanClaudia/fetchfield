@@ -9,7 +9,9 @@
 }
 
 /* Generic */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Oxygen', sans-serif;
     font-weight: 600;
     text-align: left;
@@ -42,7 +44,8 @@ a {
     padding: 10px 15px;
 }
 
-.button:hover, .button:active {
+.button:hover,
+.button:active {
     color: #202020;
     background-color: rgba(72, 195, 197, 1);
     border: 2px solid #48C3C5;
@@ -61,7 +64,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: left;
+    align-items: start;
 }
 
 header img {
@@ -69,10 +72,10 @@ header img {
     width: 25px;
     height: auto;
     margin: 0 0.2em;
-  }
+}
 
 #logo {
-    font-family:'Sansita Swashed', sans-serif;
+    font-family: 'Sansita Swashed', sans-serif;
     font-size: 160%;
     font-style: italic;
     color: #ffffff;
@@ -91,7 +94,7 @@ header img {
     letter-spacing: 2px;
 }
 
-#navbar > li {
+#navbar>li {
     margin: 2em 0;
 }
 
@@ -168,9 +171,9 @@ main {
     justify-content: center;
 }
 
-#private-fields > h3, 
-#forest-walks > h3, 
-#dog-parks > h3 {
+#private-fields>h3,
+#forest-walks>h3,
+#dog-parks>h3 {
     color: #202020;
     text-align: center;
     line-height: 22px;
@@ -187,12 +190,12 @@ main {
     margin-bottom: 10px;
 }
 
-/* Map with hotspot links   */ 
+/* Map with hotspot links   */
 #map-ireland {
     background-color: #202020;
     margin: 0 auto;
 }
-    
+
 #map-ireland img {
     background-color: #202020;
     color: #ffffff;
@@ -201,7 +204,7 @@ main {
     padding: 10px;
 }
 
-#map-ireland > div {
+#map-ireland>div {
     text-align: center;
     padding: 15px;
 }
@@ -255,19 +258,20 @@ footer img {
         flex-direction: row;
     }
 
-    #explore > div {
+    #explore>div {
         flex: 1;
         padding: 0 15px;
     }
-    #private-fields > div {
+
+    #private-fields>div {
         order: 1;
     }
 
-    #forest-walks > div {
+    #forest-walks>div {
         align-self: flex-start;
     }
 
-    #dog-parks > div {
+    #dog-parks>div {
         align-self: flex-end;
     }
 
@@ -288,9 +292,9 @@ footer img {
         width: 45px;
         height: auto;
         margin: 8px 0.5rem;
-      }
+    }
 
-      #logo {
+    #logo {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
@@ -309,8 +313,9 @@ footer img {
         display: flex;
     }
 
-    #navbar > li {
+    #navbar>li {
         color: #ffffff;
+        letter-spacing: 3px;
         padding-left: 1rem;
     }
 
@@ -354,6 +359,11 @@ footer img {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
+        /* Header navigation items */
+    #navbar a:hover{
+        border-bottom: 2px solid #48C3C5;
+    }
+
     /* Hero banner section*/
     #hero-text h3 {
         font-size: 200%;
@@ -362,7 +372,7 @@ footer img {
 }
 
 /* Screens 1200px and up) */
-@media screen and (min-width: 1200px) { 
+@media screen and (min-width: 1200px) {
 
     /* Hero banner section*/
     #hero {
@@ -373,4 +383,4 @@ footer img {
         font-size: 200%;
         padding-right: 10em;
     }
-    }
+}
