@@ -190,7 +190,7 @@ main {
     margin-bottom: 10px;
 }
 
-/* Map with hotspot links   */
+/* Map with hotspot links */
 #map-ireland {
     background-color: #202020;
     margin: 0 auto;
@@ -252,6 +252,12 @@ footer img {
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
 
+    /* Hero banner section */
+    #hero-text h3 {
+        font-size: 140%;
+        padding-right: 5em;
+    }
+
     /* Explore 3 options with icons */
     #explore {
         display: flex;
@@ -275,10 +281,9 @@ footer img {
         align-self: flex-end;
     }
 
-    /* Hero banner section*/
-    #hero-text h3 {
-        font-size: 140%;
-        padding-right: 5em;
+    /* Map image resize responsive */
+    #map-ireland img {
+        padding: 1rem 5rem;
     }
 
 }
@@ -354,6 +359,11 @@ footer img {
         color: #48C3C5;
         background-color: #202020;
     }
+
+    /* Map image resize responsive */
+    #map-ireland img {
+        padding: 1rem 8rem;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -369,6 +379,11 @@ footer img {
         font-size: 200%;
         padding-right: 8em;
     }
+
+    /* Map image resize responsive */
+    #map-ireland img {
+        padding: 1rem 15rem;
+    }
 }
 
 /* Screens 1200px and up) */
@@ -382,5 +397,10 @@ footer img {
     #hero-text h3 {
         font-size: 200%;
         padding-right: 10em;
+    }
+
+    /* Map image resize responsive */
+    #map-ireland img {
+        padding: 1rem 20rem;
     }
 }
