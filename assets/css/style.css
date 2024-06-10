@@ -163,6 +163,7 @@ main {
     padding: 40px 20px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 #private-fields > h3, 
@@ -171,7 +172,7 @@ main {
     color: #202020;
     text-align: center;
     line-height: 22px;
-    padding-right: 15px;
+    padding: 0 10px;
 }
 
 #explore i {
@@ -182,6 +183,11 @@ main {
     border-radius: 100%;
     padding: 20px;
     margin-bottom: 10px;
+}
+
+#explore i:hover {
+    color: #48C3C5;
+    background-color: #202020;
 }
 
 /* Map with hotspot links   */ 
