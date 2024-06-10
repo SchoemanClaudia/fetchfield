@@ -56,7 +56,7 @@ button:hover, button:active {
 header {
     background-color: #202020;
     padding: .5rem 1rem 1rem .5rem;
-    position:fixed;
+    position: fixed;
     z-index: 99;
     width: 100%;
     display: flex;
@@ -228,7 +228,7 @@ footer img {
     max-height: 0;
     bottom: 35px;
     text-align: right;
-    padding-right: 15px;
+    padding-right: 25px;
 }
 
 #insta i {
