@@ -30,7 +30,7 @@ a {
     color: inherit;
 }
 
-button {
+.button {
     max-width: 15em;
     text-transform: uppercase;
     color: #ffffff;
@@ -42,7 +42,7 @@ button {
     padding: 10px 15px;
 }
 
-button:hover, button:active {
+.button:hover, .button:active {
     color: #202020;
     background-color: rgba(72, 195, 197, 1);
     border: 2px solid #48C3C5;
@@ -152,8 +152,9 @@ main {
     padding: 40px 0 0 25px;
 }
 
-.hero-cta i {
-    font-size: 120%;
+#hero-cta i {
+    font-size: 110%;
+    padding-top: 10px;
 }
 
 /* Explore 3 options with icons */
@@ -209,11 +210,12 @@ main {
     padding: 15px;
 }
 
-.map-cta {
+#map-cta {
+    font-size: 110%;
     line-height: 15px;
 }
 
-.map-cta i {
+#map-cta i {
     font-size: 110%;
     padding-top: 10px;
 }
@@ -246,4 +248,11 @@ footer img {
 #insta a {
     font-size: 85%;
     font-weight: 600;
+}
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #explore {
+        padding: 40px 100px;
+    }
 }
