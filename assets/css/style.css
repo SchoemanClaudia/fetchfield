@@ -220,6 +220,15 @@ main {
     padding-top: 10px;
 }
 
+/* Explore Page */
+#explore-panels>div {
+    background-color: #48C3C5;
+    width: 100%;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
 /* Footer */
 footer {
     background-color: #202020;
