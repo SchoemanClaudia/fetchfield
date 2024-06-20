@@ -11,7 +11,8 @@
 /* Generic */
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: 'Oxygen', sans-serif;
     font-weight: 600;
     text-align: left;
@@ -231,14 +232,28 @@ main {
     justify-content: center;
 }
 
-#play-field-panels {
+#play-field {
     background-color: #202020;
     width: 100%;
-    padding: 40px 20px;
     display: flex;
     flex-direction:column;
-    justify-content:center;
+    align-items: center;
 }
+
+#play-field img {
+    width: 250px;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.play-field-panels {
+    padding: 40px 20px;
+}
+
+.play-field-panels>h4 {
+    padding-bottom: 30px;
+}
+
 
 /* Footer */
 footer {
