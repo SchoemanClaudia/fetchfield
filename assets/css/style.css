@@ -221,12 +221,23 @@ main {
 }
 
 /* Explore Page */
-#explore-panels>div {
+#play-field-head,
+#tail-trail-head,
+#fenced-parks-head {
     background-color: #48C3C5;
     width: 100%;
     padding: 40px 20px;
     display: flex;
     justify-content: center;
+}
+
+#play-field-panels {
+    background-color: #202020;
+    width: 100%;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
 }
 
 /* Footer */
