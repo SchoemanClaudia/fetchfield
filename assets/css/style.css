@@ -218,7 +218,7 @@ main {
     padding: 10px;
 }
 
-#map-ireland>div {
+#map-ireland div {
     text-align: center;
     padding: 15px;
 }
@@ -270,18 +270,25 @@ main {
 #explore-item-section img {
     width: 250px;
     height: auto;
-    padding-bottom: 5px;
 }
 
 .explore-item {
     padding: 40px 20px;
 }
 
-.explore-item>h4 {
+.explore-item h4 {
     font-size: 140%;
 }
 
-.explore-item>p {
+.explore-item p {
+    font-size: 80%;
+}
+
+.explore-item hr {
+    border: 1px solid #48C3C5;
+}
+
+#explore-item-cta {
     font-size: 80%;
 }
 
