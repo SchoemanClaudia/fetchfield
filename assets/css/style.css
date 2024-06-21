@@ -247,7 +247,7 @@ main {
 
 #play-field-head h2,
 #tail-trail-head h2,
-#fenced-park-head h2 { 
+#fenced-park-head h2 {
     color: #202020;
     text-align: center;
     padding-bottom: 20px;
@@ -265,15 +265,18 @@ main {
     font-size: 80%;
 }
 
-#explore-item-section {
+/* Explore list items */
+#explore-item-section1,
+#explore-item-section2 {
     background-color: #202020;
     width: 100%;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
 }
 
-#explore-item-section img {
+#explore-item-section1 img,
+#explore-item-section2 img {
     width: 250px;
     height: auto;
 }
@@ -368,12 +371,29 @@ footer img {
         padding: 1rem 10rem;
     }
 
+    /* Explore Page */
+    #explore-item-section1,
+    #explore-item-section2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #play-field-head p,
+    #tail-trail-head p,
+    #fenced-park-head p {
+        text-align: center;
+    }
+
+    /* Explore list items */
+
+
     /* Footer social link */
     #insta {
         bottom: 50px;
         padding-right: 35px;
     }
-    
+
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -468,8 +488,8 @@ footer img {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
-        /* Header navigation items */
-    #navbar a:hover{
+    /* Header navigation items */
+    #navbar a:hover {
         border-bottom: 2px solid #48C3C5;
     }
 
