@@ -234,7 +234,9 @@ main {
 }
 
 /* Explore Page */
-#explore-item-head {
+#play-field-head,
+#tail-trail-head,
+#fenced-park-head {
     background-color: #48C3C5;
     width: 100%;
     height: auto;
@@ -243,13 +245,17 @@ main {
     flex-direction: column;
 }
 
-#explore-item-head h2 { 
+#play-field-head h2,
+#tail-trail-head h2,
+#fenced-park-head h2 { 
     color: #202020;
     text-align: center;
     padding-bottom: 20px;
 }
 
-#explore-item-head p {
+#play-field-head p,
+#tail-trail-head p,
+#fenced-park-head p {
     color: #202020;
     text-align: left;
     padding: 0 50px;
@@ -278,10 +284,12 @@ main {
 
 .explore-item h4 {
     font-size: 140%;
+    padding-bottom: 5px;
 }
 
 .explore-item p {
     font-size: 80%;
+    padding-bottom: 5px;
 }
 
 .explore-item hr {
