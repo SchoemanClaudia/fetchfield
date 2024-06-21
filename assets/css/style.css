@@ -20,6 +20,12 @@ h4 {
     letter-spacing: 1px;
 }
 
+p {
+    color: #202020;
+    padding: 1rem;
+    text-align: center;
+}
+
 body {
     font-family: 'Oxygen', sans-serif;
     color: #202020;
@@ -54,6 +60,14 @@ a {
 
 .hidden-heading {
     display: none;
+}
+
+ul {
+    font-size: 90%;
+    line-height: 1.5em;
+    color: #48C3C5;
+    text-align: left;
+    padding: 0.5rem 0 2rem 1rem;
 }
 
 /* Header */
@@ -227,9 +241,23 @@ main {
 #fenced-parks-head {
     background-color: #48C3C5;
     width: 100%;
+    height: auto;
     padding: 40px 20px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+}
+
+#play-field-head h2,
+#tail-trail-head h2,
+#fenced-parks-head h2 {
+    color: #202020;
+    text-align: center;
+}
+
+#play-field-head i,
+#tail-trail-head i,
+#fenced-parks-head i {
+    font-size: 80%;
 }
 
 #play-field {
@@ -251,9 +279,8 @@ main {
 }
 
 .play-field-panels>h4 {
-    padding-bottom: 30px;
+    font-size: 110%;
 }
-
 
 /* Footer */
 footer {
