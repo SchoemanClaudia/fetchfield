@@ -21,9 +21,7 @@ h4 {
 }
 
 p {
-    color: #202020;
-    padding: 1rem;
-    text-align: center;
+    color: #ffffff;
 }
 
 body {
@@ -236,31 +234,32 @@ main {
 }
 
 /* Explore Page */
-#play-field-head,
-#tail-trail-head,
-#fenced-parks-head {
+#explore-item-head {
     background-color: #48C3C5;
     width: 100%;
     height: auto;
-    padding: 40px 20px;
+    padding: 40px 10px;
     display: flex;
     flex-direction: column;
 }
 
-#play-field-head h2,
-#tail-trail-head h2,
-#fenced-parks-head h2 {
+#explore-item-head h2 { 
     color: #202020;
     text-align: center;
+    padding-bottom: 20px;
 }
 
-#play-field-head i,
-#tail-trail-head i,
-#fenced-parks-head i {
+#explore-item-head p {
+    color: #202020;
+    text-align: left;
+    padding: 0 50px;
+}
+
+#explore-item-head i {
     font-size: 80%;
 }
 
-#play-field {
+#explore-item-section {
     background-color: #202020;
     width: 100%;
     display: flex;
@@ -268,18 +267,22 @@ main {
     align-items: center;
 }
 
-#play-field img {
+#explore-item-section img {
     width: 250px;
     height: auto;
     padding-bottom: 5px;
 }
 
-.play-field-panels {
+.explore-item {
     padding: 40px 20px;
 }
 
-.play-field-panels>h4 {
-    font-size: 110%;
+.explore-item>h4 {
+    font-size: 140%;
+}
+
+.explore-item>p {
+    font-size: 80%;
 }
 
 /* Footer */
