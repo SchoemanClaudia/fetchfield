@@ -60,14 +60,6 @@ a {
     display: none;
 }
 
-ul {
-    font-size: 90%;
-    line-height: 1.5em;
-    color: #48C3C5;
-    text-align: left;
-    padding: 0.5rem 0 2rem 1rem;
-}
-
 /* Header */
 header {
     background-color: #202020;
@@ -75,6 +67,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: start;
@@ -293,6 +286,14 @@ main {
 .explore-item p {
     font-size: 80%;
     padding-bottom: 5px;
+}
+
+.explore-item ul {
+    font-size: 90%;
+    line-height: 1.5em;
+    color: #48C3C5;
+    text-align: left;
+    padding: 0.5rem 0 2rem 1rem;
 }
 
 .explore-item hr {
