@@ -287,7 +287,7 @@ main {
 
 .explore-item h4 {
     font-size: 140%;
-    padding-bottom: 5px;
+    padding: 10px 0 5px 0;
 }
 
 .explore-item p {
@@ -372,11 +372,18 @@ footer img {
     }
 
     /* Explore Page */
+    #play-field-head,
+    #tail-trail-head,
+    #fenced-park-head {
+        margin-top: 2.5em;
+    }
+
+    /* Explore list items */
     #explore-item-section1,
     #explore-item-section2 {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     #play-field-head p,
@@ -384,9 +391,6 @@ footer img {
     #fenced-park-head p {
         text-align: center;
     }
-
-    /* Explore list items */
-
 
     /* Footer social link */
     #insta {
@@ -473,6 +477,35 @@ footer img {
         padding: 1rem 15rem;
     }
 
+    /* Explore page */
+    #play-field-head h2,
+    #tail-trail-head h2,
+    #fenced-park-head h2 {
+        font-size: 200%;
+    }
+
+    #play-field-head p,
+    #tail-trail-head p,
+    #fenced-park-head p {
+        font-size: 110%;
+    }
+
+    /* Explore list images enlarged */
+    #explore-item-section1 img,
+    #explore-item-section2 img {
+        width: 300px;
+        height: auto;
+    }
+
+    .explore-item h4 {
+        font-size: 180%;
+        padding: 10px 0 5px 0;
+    }
+
+    .explore-item p {
+        font-size: 100%;
+    }
+
     /* Footer social link */
     #insta {
         bottom: 60px;
@@ -502,6 +535,15 @@ footer img {
     /* Map image resize responsive */
     #map-ireland img {
         padding: 1rem 20rem;
+    }
+
+    /* Explore page */
+
+    /* Explore list images enlarged */
+    #explore-item-section1 img,
+    #explore-item-section2 img {
+        width: 400px;
+        height: auto;
     }
 
     /* Footer social link */
