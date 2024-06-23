@@ -50,7 +50,40 @@
             <div>
                 <div id="contact-left-text">
                     <h2>Send us your recommendations</h2>
-                    <p>We would love to hear from you, and share your recommendations with others looking to take their furry friends on their next adventure around ireland. </p>
+                    <p>We would love to hear from you, and share your recommendations with others looking to take their furry friends on their next adventure around Ireland. </p>
+                </div>
+                <!-- Recommendation Form -->
+                <div>
+                    <form id="contact-form" method="post" action="#">
+                        <label for="name">Name & Surname</label>
+                        <input type="text" id="name" name="name" class="text-input" required>
+                        <br>
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" class="text-input" required>
+                        <br>
+                        <label for="location">Suggested location</label>
+                        <input type="text" id="location" name="location" class="text-input" required>
+
+                        <div class="radio-buttons">
+                            <div>
+                                <label for="private-field-radio">Private Field</label>
+                                <input type="radio" id="private-field-radio" name="location-type" value="private-field-radio" required checked>
+                            </div>
+                            <div>
+                                <label for="tail-trail-radio">Tail Trail</label>
+                                <input type="radio" id="tail-trail-radio" name="location-type" value="tail-trail-radio" required>
+                            </div>
+                            <div>
+                                <label for="fenced-park-radio">Fenced Park</label>
+                                <input type="radio" id="fenced-park-radio" name="location-type" value="fenced-park-radio" required>
+                            </div>
+                        </div>
+
+                        <label for="tell-us-more">Tell us more</label>
+                        <textarea id="tell-us-more" name="tell-us-more" class="text-input" rows="8" maxlength="200" required></textarea>
+                        <br>
+                        <button type="submit" class="button">Send <i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
                 </div>
             </div>
         </section>

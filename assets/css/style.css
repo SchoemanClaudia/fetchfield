@@ -318,6 +318,10 @@ main {
     padding: 40px 20px;
 }
 
+#contact-left-text h2 {
+    color: #48C3C5;
+}
+
 #contact-left-text p {
     font-size: 90%;
     padding-top: 20px;
