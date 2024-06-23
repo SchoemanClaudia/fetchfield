@@ -11,8 +11,7 @@
     <!-- Tab title -->
     <title>Fetch Field</title>
     <!-- Prefetch to load img sooner -->
-    <link rel="prefetch" href="assets/images/hero-image.webp">
-    <link rel="prefetch" href="assets/images/map-locations.webp">
+    <link rel="prefetch" href="assets/images/contact-image.webp">
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
@@ -25,7 +24,8 @@
     <!-- Header -->
     <header>
         <a href="index.html">
-            <h1 id="logo"><img src="assets/images/logo-icon.webp" alt="Logo emblem" aria-label="Fetch Field logo icon"> Fetch Field</h1>
+            <h1 id="logo"><img src="assets/images/logo-icon.webp" alt="Logo emblem" aria-label="Fetch Field logo icon">
+                Fetch Field</h1>
         </a>
         <input type="checkbox" id="nav-menu" name="nav-menu">
         <label for="nav-menu" class="nav-menu-toggle" aria-label="Menu toggle (opens navigation for mobile)">
@@ -35,7 +35,8 @@
             <ul id="navbar">
                 <li><a href="index.html" aria-label="Home page navigation (opens home page)">Home</a></li>
                 <li><a href="explore.html" aria-label="Explore page navigation (opens explore page)">Explore</a></li>
-                <li><a href="contact.html" class="active" aria-label="Contact page navigation (opens contact page)">Contact</a></li>
+                <li><a href="contact.html" class="active"
+                        aria-label="Contact page navigation (opens contact page)">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -50,40 +51,47 @@
             <div id="contact-section">
                 <div id="contact-left-text">
                     <h2>Send us your recommendations</h2>
-                    <p>We would love to hear from you, and share your recommendations with others looking to take their furry friends on their next adventure around Ireland. </p>
+                    <p>We would love to hear from you, and share your recommendations with others looking to take their
+                        furry friends on their next adventure around Ireland. </p>
                 </div>
                 <!-- Recommendation Form -->
                 <div>
-                    <form id="contact-form" method="post" action="formdump.html">
+                    <!-- Form doesnt redirect to formdump.html if method="post" is added??? -->
+                    <form id="contact-form" action="/formdump.html">
                         <label for="name">Name & Surname</label>
                         <input type="text" id="name" name="name" class="text-input" required>
                         <br>
                         <label for="email">Email Address</label>
                         <input type="email" id="email" name="email" class="text-input" required>
                         <br>
-                        <label for="location">Suggested location</label>
+                        <label for="location">Suggested Location</label>
                         <input type="text" id="location" name="location" class="text-input" required>
 
                         <div class="radio-buttons">
                             <div>
                                 <label for="private-field-radio">Private Field</label>
-                                <input type="radio" id="private-field-radio" name="location-type" value="private-field-radio" required checked>
+                                <input type="radio" id="private-field-radio" name="location-type"
+                                    value="private-field-radio" required checked>
                             </div>
                             <div>
                                 <label for="tail-trail-radio">Tail Trail</label>
-                                <input type="radio" id="tail-trail-radio" name="location-type" value="tail-trail-radio" required>
+                                <input type="radio" id="tail-trail-radio" name="location-type" value="tail-trail-radio"
+                                    required>
                             </div>
                             <div>
                                 <label for="fenced-park-radio">Fenced Park</label>
-                                <input type="radio" id="fenced-park-radio" name="location-type" value="fenced-park-radio" required>
+                                <input type="radio" id="fenced-park-radio" name="location-type"
+                                    value="fenced-park-radio" required>
                             </div>
                         </div>
                         <br>
-                        <label for="tell-us-more">Tell us more</label>
-                        
-                        <textarea id="tell-us-more" name="tell-us-more" class="message-input" rows="5" maxlength="100" required></textarea>
+                        <label for="tell-us-more">Tell Us More</label>
+
+                        <textarea id="tell-us-more" name="tell-us-more" class="message-input" rows="5" maxlength="100"
+                            required></textarea>
                         <br>
-                        <a href="formdump.html" aria-label="Form successfully sent (message appears on contact page)" type="submit" class="button">Send <i class="fa-solid fa-paper-plane"></i></a>
+                        <button class="button" aria-label="Form successfully sent (message appears on contact page)">
+                            Send <i class="fa-solid fa-paper-plane"></i></button>
                     </form>
                 </div>
             </div>
@@ -93,7 +101,8 @@
     <!-- Footer -->
     <footer>
         <div>
-            <img src="assets/images/grass-footer.webp" alt="Grass field footer" aria-label="Website footer image of grass">
+            <img src="assets/images/grass-footer.webp" alt="Grass field footer"
+                aria-label="Website footer image of grass">
         </div>
         <div id="insta">
             <a href="https://www.instagram.com" target="_blank" rel="noopener"
