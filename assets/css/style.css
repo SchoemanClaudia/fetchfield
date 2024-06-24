@@ -446,7 +446,7 @@ footer img {
     #play-field-head,
     #tail-trail-head,
     #fenced-park-head {
-        margin-top: 2.5em;
+        padding-top: 40px;
     }
 
     /* Explore list items */
