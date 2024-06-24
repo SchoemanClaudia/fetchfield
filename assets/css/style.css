@@ -315,7 +315,7 @@ main {
 }
 
 #contact-left-text {
-    padding: 40px;
+    padding: 30px;
 }
 
 #contact-left-text h2 {
@@ -333,7 +333,7 @@ main {
     font-size: 90%;
     color: #ffffff;
     letter-spacing: 0.5px;
-    padding: 30px 20px;
+    padding: 20px;
     margin: 0 2rem;
     border: 2px solid #48C3C5;
     border-radius: 10px;
@@ -350,13 +350,12 @@ main {
 }
 
 .radio-buttons {
-    background-color: #48C3C5;
-    color: #202020;
+    color: #48C3C5;
     font-size: 90%;
+    line-height: 1.7em;
     width: 100%;
     display: flex;
-    align-self: flex-start;
-    justify-content: space-evenly;
+    flex-direction: column;
     padding: 5px 0;
 }
 
@@ -387,7 +386,7 @@ footer img {
 #insta {
     position: relative;
     max-height: 0;
-    bottom: 45px;
+    bottom: 30px;
     text-align: right;
     padding-right: 25px;
 }
@@ -462,6 +461,12 @@ footer img {
     /* Contact Page */
     #contact-img {
         height: 300px;
+    }
+
+    .radio-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     /* Footer social link */
