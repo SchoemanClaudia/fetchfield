@@ -157,10 +157,10 @@ main {
 
 #hero-text {
     position: absolute;
-    min-height: 80vh;
-    bottom: 75px;
+    min-height: 180px;
+    bottom: 120px;
     width: 80%;
-    padding: 40px 0 0 25px;
+    padding-left: 25px;
 }
 
 #hero-cta i {
