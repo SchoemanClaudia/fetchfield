@@ -3,6 +3,7 @@
 
 /* Asterisk wildcard selector: override default styles added by the browser */
 * {
+    /* This is code used in Love Running Project walkthrough */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -410,6 +411,7 @@ footer img {
     }
 
     /* Explore 3 options with icons */
+    /* This is code used in Love Running Project walkthrough with slight changes to suit Fetch Field styles */
     #explore {
         display: flex;
         flex-direction: row;
@@ -495,6 +497,7 @@ footer img {
     }
 
     /* Remove navbar toggle in header */
+    /* This is code used in Love Running Project walkthrough with slight changes to suit Fetch Field styles */
     nav {
         display: block;
         position: relative;

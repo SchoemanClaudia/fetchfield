@@ -56,9 +56,8 @@
                 </div>
                 <!-- Recommendation Form -->
                 <div>
-                    <!-- Form doesnt redirect to formdump.html if method="post" is added??? Maybe add generic from Love-Running project:
-                     https://formdump.codeinstitute.net -->
-                    <form id="contact-form" action="/formdump.html">
+                    <!-- Form does not redirect to formdump.html if method="post" is added. Replaced with generic form success message from Love-Running project -->
+                    <form id="contact-form" method="post" action="https://formdump.codeinstitute.net">
                         <label for="name">Name & Surname</label>
                         <input type="text" id="name" name="name" class="text-input" required>
                         <br>
@@ -71,27 +70,27 @@
                         <div class="radio-buttons">
                             <div>
                                 <label for="private-field-radio">Private Field</label>
-                                <input type="radio" id="private-field-radio" name="location-type"
-                                    value="private-field-radio" required checked>
+                                <input type="radio" id="private-field-radio" name="location-type" value="Private Field"
+                                    required checked>
                             </div>
                             <div>
                                 <label for="tail-trail-radio">Tail Trail</label>
-                                <input type="radio" id="tail-trail-radio" name="location-type" value="tail-trail-radio"
+                                <input type="radio" id="tail-trail-radio" name="location-type" value="Tail Trail"
                                     required>
                             </div>
                             <div>
                                 <label for="fenced-park-radio">Fenced Park</label>
-                                <input type="radio" id="fenced-park-radio" name="location-type"
-                                    value="fenced-park-radio" required>
+                                <input type="radio" id="fenced-park-radio" name="location-type" value="Fenced Park" required>
                             </div>
                         </div>
                         <br>
                         <label for="tell-us-more">Tell Us More</label>
-
+                        <!-- External source assist to add larger message <textfield> to form (https://www.w3schools.com/tags/tag_textarea.asp) -->
                         <textarea id="tell-us-more" name="tell-us-more" class="message-input" rows="5" maxlength="100"
                             required></textarea>
                         <br>
-                        <button type="submit" class="button" aria-label="Form successfully sent (message appears on contact page)">
+                        <button type="submit" class="button"
+                            aria-label="Form successfully sent (message appears on contact page)">
                             Send <i class="fa-solid fa-paper-plane"></i></button>
                     </form>
                 </div>
