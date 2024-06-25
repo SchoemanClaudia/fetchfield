@@ -83,16 +83,35 @@ Users of this website will be able to find information about me as a coach, the 
 
 ## Testing 
 
-Paragraph section
+### Accessibility
+
+- Lighthouse
+
+![Lighthouse](#)
+
+- [WhoCanUSe.com](https://www.whocanuse.com/)
+
+![Who Can Use](#)
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator]()
+  - Duplicate 'id' attributes used on explore.html when passing through validator, #explore-item-section1, #explore-item-section2 and #explore-item-cta. All duplicate 'id' changed to class attribute instead.
+
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator]()
+  - Duplicate 'id' attributes used on explore.html when passing through validator, #explore-item-section1, #explore-item-section2 and #explore-item-cta. All duplicate 'id' changed to class attribute instead.
 
 ### Bugs Encountered
+
+- Contact dumpform.html
+  - Created a dumpform.html page to link to successful form submit, but form wouldn't link on deployed site without javascript added. Opted to link an external form dump site (https://formdump.codeinstitute.net) for functionality and to pass validation tests.
+
+- Contast error on footer link
+  - A contrast errors was returned when passing through the official [WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/)
+    Link was dropping down below footer background image, link rendering against background instead of image grass panel. To fix bug the grass footer image height was increased to create more space in footer section, allowing link to be pushed up in styles for various screen sizes.
+
+![Wave Contrast Error 01](assets/images/contrast-error-01.wepb.png)
+![Wave Contrast Error 02](assets/images/contrast-error-02.wepb.png)
 
 ### Unfixed Bugs
 
@@ -101,7 +120,7 @@ Paragraph section
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The live link can be found here:
+- The site was deployed to GitHub pages, the live link can be found here:
  - https://schoemanclaudia.github.io/fetchfield.ie/
 
 
