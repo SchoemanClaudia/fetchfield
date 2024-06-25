@@ -78,7 +78,9 @@ Users of this website will be able to find information about me as a coach, the 
 
 ### Future Features to Implement
 
-- Discuss plans for additional features to be implemented in the future.
+- Add an interactive map with location hotspots on home page, allowing user to easily navigate to prefered location spots from visual map. This feature will have a hover function on locator icon, this then activates a tooltip bubble with information about the location and when clicked directs user to relevant external site.
+
+-  Build a carousel gallery for instagram posts of followers and their furry friends at the various Fetch Field suggested locations around ireland. Allowing the user to feel part of building a community and the benefits of sharing great locations for potential dog owners to enjoy.
 
 
 ## Testing 
@@ -91,7 +93,7 @@ Users of this website will be able to find information about me as a coach, the 
 
 - [WhoCanUSe.com](https://www.whocanuse.com/)
 
-![Who Can Use](#)
+![Who Can Use](assets/images/whocanuse.webp)
 
 ### Validator Testing 
 
@@ -108,7 +110,7 @@ Users of this website will be able to find information about me as a coach, the 
 
 - Contast error on footer link
   - A contrast errors was returned when passing through the official [WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/)
-    Link was dropping down below footer background image, link rendering against background instead of image grass panel. To fix bug the grass footer image height was increased to create more space in footer section, allowing link to be pushed up in styles for various screen sizes.
+    Link was dropping down below footer background image, link rendering against background instead of image grass panel. To fix bug the grass footer image height was increased to create more space in footer section, allowing link to be pushed up in styles for various screen sizes and added transparent background.
 
 ![Wave Contrast Error 01](assets/images/contrast-error-01.wepb.png)
 ![Wave Contrast Error 02](assets/images/contrast-error-02.wepb.png)
