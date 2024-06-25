@@ -385,8 +385,8 @@ footer img {
 
 #insta {
     position: relative;
-    max-height: 0;
-    bottom: 30px;
+    max-height: 0px;
+    bottom: 37px;
     text-align: right;
     padding-right: 25px;
 }
@@ -398,6 +398,17 @@ footer img {
 #insta a {
     font-size: 85%;
     font-weight: 600;
+}
+
+/* Media query: large or landscape phones (375px and up) */
+/* Added to fix bug encountered on footer link, lift link in footer */
+@media screen and (min-width: 375px) {
+
+    /* Footer social link */
+    #insta {
+        bottom: 47px;
+    }
+
 }
 
 /* Media query: large or landscape phones (576px and up) */
@@ -476,7 +487,7 @@ footer img {
 
     /* Footer social link */
     #insta {
-        bottom: 50px;
+        bottom: 60px;
         padding-right: 35px;
     }
 
@@ -627,8 +638,7 @@ footer img {
 
     /* Footer social link */
     #insta {
-        bottom: 60px;
-        padding-right: 35px;
+        bottom: 80px;
     }
 
     #insta a {
@@ -667,7 +677,7 @@ footer img {
 
     /* Footer social link */
     #insta {
-        bottom: 70px;
+        bottom: 90px;
         padding-right: 45px;
     }
 
