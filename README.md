@@ -8,49 +8,49 @@ The Fetch Field website was created to assist dog owners in finding the perfect 
 
 ### Existing Features
 
-- __Header Navigation bar__
+- __Header Navigation Bar__
 
   - The site logo and emblem sets the main colour theme: teal, liquorice and white.
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Explore and Contact page and is identical on each page to allow for easy navigation.
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo; Home; Explore and Contact pages, and is identical on each page to allow for easy navigation.
   - Mobile screen navigation is styled into a navbar dropdown for optimal functionality on smaller screens.
 
 ![Nav Bar Desktop](assets/images/navbar-desktop.webp)
 ![Nav Bar Mobile](assets/images/navbar-mobile.webp)
 
 
-- __Landing page hero image__
+- __Landing Page Hero Image__
 
-  - This section introduces the user to Fetch Field with a colourful and playful photograph of a dog in a field with text overlay. 
+  - This section introduces the user to Fetch Field with a colourful and playful photograph of a dog in a field with a text overlay. 
   - Button below text allows user to view all walk locations and redirects them straight to the Explore page. 
 
 ![Landing Hero Img](assets/images/landing-page-image.webp)
 
 
-- __Explore section__
+- __Explore Section__
 
   - This panel consists of 3 various types of locations, depending on the users need for their furry friend. The user can select the option and access the specific locations directly on Explore page. 
 
 ![Explore Options Panel](assets/images/explore-section-panel.webp)
 
 
-- __Map section__
+- __Map Section__
 
   - The gif animated map grabs the users attention to various locations the site has suggested spots to.
-  - Button below map allows user to contribute and send their suggested location, redirecting them to contact page.
+  - Button below map allows user to contribute and send their own suggested location, redirecting them to contact page.
 
 ![Ireland Location Map](assets/images/map-section.webp)
 
 
 - __The Footer__ 
 
-  - The footer section includes a link to Fetch Field Instagram account. The link will open to a new tab to allow easy navigation for the user. 
+  - The footer section includes a link to Fetch Field Instagram account fetch_field. The link will open to a new tab to allow easy navigation for the user. 
 
-![Footer](assets/images/footer-Insta.webp)
+![Footer](assets/images/footer-insta.webp)
 
 
 - __Explore__
 
-  - This page consists of 3 sections; Private Play Fields, Coillte Tail Trails and Fully Fenced Parks. Each section is divided with a header panel which informs the user of what the locations are based on, and following the direction of these the user will determine which to explore their options within.
+  - This page consists of 3 sections, Private Play Fields; Coillte (Forest in Irish) Tail Trails and Fully Fenced Parks. Each section is divided with a header panel with a heading and short paragrapgh. This will guide the user and based on what the locations offer for each of these prefered ventures, the user will determine which to explore further.
   - Each location item is presented with a relevant image to the field, trail or park. The name and location is visible, followed by a few brief bullet points to advise the user what to expect from the suggested location with a button that follows. If the user decides to find out more about the location, they will be redirected to an external site.
 
 ![Explore](assets/images/explore-section.webp)
@@ -59,16 +59,16 @@ The Fetch Field website was created to assist dog owners in finding the perfect 
 - __Contact Form Page__
 
   - This page will allow the user to send suggested walk locations to share with the Fetch Field community.
-  - The user will be asked to submit their full name and email address and location.
-  - The user will be able to select the type of walk they are suggesting, with Private Field, Forest or Fenced Park options.
-  - The form includes a message box for users to give more details about the location they are suggesting to the community before submitting form.
+  - The user will be asked to submit their full name, email address and suggested spot location.
+  - The user will be able to select the type of walk they are suggesting, with Private Field; Tail Trail or Fenced Park as options.
+  - The form includes a message box for users to give more details about the location they are suggesting to the community, before submitting form.
 
 ![Contact Form](assets/images/contact-form.webp)
 
 
 ### UX/UI Wireframing
 
-- The site was developed with the Mobile-first method.
+- The site was developed with a mobile-first approach.
 - Main colour theme hex for teal (#48C3C5) and liquorice (#202020).
 - Wireframe drawn up pre-development to assist with structure of elements on each page, panels are based on mobile view. As development commenced, elements on pages were adjusted for the best user experience.
 
@@ -78,13 +78,13 @@ The Fetch Field website was created to assist dog owners in finding the perfect 
 
 ### Future Features to Implement
 
--  Link formdump.html for user to view successful form sent, with message thanking them for their contribution. Keeping the user within the site structure to further navigate and explore if wanted.
+-  Link formdump.html for user to view successful form sent, with message thanking them for their contribution. Keeping the user within the site structure to further navigate and explore if wanted. See formdump.html sample page created.
 
 ![Sample formdump.html Page Created](assets/images/formdump-sample.webp)
 
-- Add an interactive map with location hotspots on home page, allowing user to easily navigate to prefered location spots from visual map. This feature will have a hover function on the locator icon, this then activates a tooltip bubble with information about the location and when clicked directs the user to a relevant external site.
+- Add an interactive map with location hotspots on home page, allowing user to easily navigate to prefered location spots from visual map. This feature will have a hover function on the locator icon, which activates a tooltip bubble with information about the location and redirects the user to a relevant external site when clicked.
 
--  Build a carousel gallery for Instagram posts of followers and their furry friends at the various Fetch Field suggested locations around Ireland. Allowing the user to feel part of building a community and the benefits of sharing great locations for potential dog owners to enjoy.
+-  Build a carousel gallery for Instagram posts of followers and their furry friends, at the various Fetch Field suggested locations around Ireland. Allowing the user to feel part of building a community and the benefits of sharing great locations for potential dog owners to enjoy.
 
 
 ## Testing 
@@ -95,14 +95,14 @@ The Fetch Field website was created to assist dog owners in finding the perfect 
 
 ![Lighthouse score for mobile](assets/images/lighthouse-score.webp)
 
-- Testing color contrast and its affect on different visual impairments via [WhoCanUse.com](https://www.whocanuse.com/)
+- Tested color contrast and its affect on different visual impairments via [WhoCanUse.com](https://www.whocanuse.com/)
 
 ![Who Can Use](assets/images/whocanuse.webp)
 
--   Tested and confirmed that the page works in different browsers; Chrome, Safari and Firefox.
+-   Tested and confirmed that the site works in different browsers; Chrome, Safari and Firefox.
 -   Tested and confirmed that all internal links are working and redirecting the user between the pages.
 -   Tested that all external links are woking and opening in a separate tab.
--   Tested and confirmed that the contact form works, all fields are required, the radio buttons are required (one of them), the email field only accepts email address, and the submit button link works:
+-   Tested and confirmed that the contact form works, all fields are required, the radio buttons are required (one of them), the email field only accepts an email address, and the submit button link works:
 
 ![Screenshot of the Code institute page that is displayed when submitting the form](assets/images/ci-formdump-success.webp)
 
@@ -112,7 +112,7 @@ The Fetch Field website was created to assist dog owners in finding the perfect 
   - Duplicate 'id' attributes used on explore.html when passing through validator, #explore-item-section1, #explore-item-section2 and #explore-item-cta. All duplicate 'id' changed to class attribute instead.
   - After fixing above attributes, no errors found when running the code through the [W3C HTML Validator](https://validator.w3.org/)
 
-![Screenshot of the HTML Validator result](assets/images/html-validator.wepb)
+![Screenshot of the HTML Validator result](assets/images/html-validator.webp)
 
 - CSS
   - Duplicate 'id' attributes used on explore.html when passing through validator, #explore-item-section1, #explore-item-section2 and #explore-item-cta. All duplicate 'id' changed to class attribute instead.
@@ -123,18 +123,18 @@ The Fetch Field website was created to assist dog owners in finding the perfect 
 ### Bugs Encountered
 
 - Contact dumpform.html
-  - Created a dumpform.html page to link to a successful form submition, but form wouldn't link on deployed site without javascript added. Opted to link an external form dump site (https://formdump.codeinstitute.net) for functionality and to pass validation tests.
+  - Created a dumpform.html page to link to a successful form submission, but form wouldn't link on deployed site without javascript added. Opted to link an external form dump site (https://formdump.codeinstitute.net) for functionality and to pass validation tests.
 
 - Contast error on footer link
-  - A contrast errors was returned when passing through the official [WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/)
-    Link was dropping down below footer background image, link rendering against background instead of image grass panel. To fix bug the grass footer image height was increased to create more space in footer section, allowing link to be pushed up in styles for various screen sizes and added transparent background.
+  - A contrast errors was returned when passing through the official [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
+  - Link was dropping down below footer background image, link rendering against background instead of image grass panel. To fix bug the grass footer image height was increased to create more space in footer section, allowing link to be pushed up in styles for various screen sizes and added transparent background.
 
-![Wave Contrast Error 01](assets/images/contrast-error-01.wepb.png)
-![Wave Contrast Error 02](assets/images/contrast-error-02.wepb.png)
+![Wave Contrast Error 01](assets/images/contrast-error-01.webp)
+![Wave Contrast Error 02](assets/images/contrast-error-02.webp)
 
 ### Unfixed Bugs
 
--   No unfixed bugs, [WAVE Web Accessibility Evaluation Tools] returned with no errors.
+-   No unfixed bugs, [WAVE Tool](https://wave.webaim.org/) returned with no errors.
 
 ![Wave Final Result](assets/images/wave-validator.webp)
 
@@ -147,7 +147,7 @@ The Fetch Field website was created to assist dog owners in finding the perfect 
     -   git commit -m "commit message" - to commit changes to the local repository queue that are ready for the final step.
     -   git push - to push all committed code to the remote repository on Github.
 
-### Deployment to Github pages
+### Deployment to Github Pages
 -   The site was deployed to Github pages as follows:
     -   In the Github repository, navigate to Settings tab
     -   From the source section drop-down menu, select the Master branch and Save
@@ -170,9 +170,9 @@ The Fetch Field website was created to assist dog owners in finding the perfect 
 ### Content 
 
 -   The icons throughout site were taken from [Font Awesome](https://fontawesome.com/)   
--   The favicon and logo icon, Ireland map and footer details was taken from [Adobe Stock](https://stock.adobe.com/). Creative Cloud software was used for the changes to elements to suit site branding.
+-   The favicon and logo icon, Ireland map and footer details were taken from [Adobe Stock](https://stock.adobe.com/). Creative Cloud software was used for the changes to elements to suit site branding.
 -   The Love Running project walkthrough code assisted with certain navigation and flex functionalities.
 
 ### Media
 
-- All images throughout site was taken from [Pexels](https://www.pexels.com/)
+- All images throughout site were taken from [Pexels](https://www.pexels.com/)
